@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+.heading-container {
+  background-color: black;
+  height: 3rem;
+  line-height: 3rem;
+  width: 100%;
+}
+.option {
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -o-border-radius: 50%;
+}
+.heading {
+  color: white;
+  text-align: center;
+}
+.option {
+  height: 5rem;
+  margin-top: 4rem;
+  padding: 1.5rem;
+}
+.option:hover {
+  opacity: 0.65;
+  cursor: pointer;
+}
+
+.players {
+  text-align: center;
+  justify-content: center;
+  display: flex;
+}
+.player1 {
+  padding: 1rem;
+}
+.player2 {
+  padding: 1rem;
+}
+.box {
+  padding: 2rem;
+  margin-top: 7px;
+}
+.status {
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
+.newbtn {
+  background-color: black;
+  color: white;
+  display: inline;
+  padding: 0.5rem;
+  border-radius: 5px;
+}
